@@ -1,0 +1,605 @@
+
+html body {
+    background: #f3f3f3 none repeat scroll 0 0;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+}
+.top-header {
+}
+.left-header {
+}
+.right-header {
+    margin-right: 0;
+    padding-right: 0 !important;
+}
+.right-header img {
+    float: right;
+}
+.fb-gr-en
+{
+	float:left; 
+	margin-left:75px;
+}
+.languages
+{
+	float:left;
+}
+.bottom-header a {
+	
+	color:black!important;
+}
+.slicknav_menu {
+    display: none;
+}
+@media screen and (max-width: 40em) {
+.js #menu {
+    display: none;
+}
+.js .slicknav_menu {
+    display: block;
+}
+}
+.menu {
+    text-align: left;
+}
+.nav {
+    display: inline-block;
+    text-align: center;
+}
+.header {
+    color: black !important;
+    font-family: "Roboto",sans-serif;
+    font-size: 180%;
+    font-weight: bold;
+}
+.nav b {
+}
+#fb-gr-en {
+    margin: 0 50px;
+}
+ul#menu li {
+    background-image: url("Images/separetor.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    vertical-align: middle;
+}
+ul#menu li:last-of-type {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+ul#menu li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+}
+.csslider {
+    display: inline-block;
+    margin-bottom: 22px;
+    perspective: 1300px;
+    position: relative;
+    text-align: left;
+}
+.csslider > input {
+    display: none;
+}
+.csslider > input:nth-of-type(10):checked ~ ul li:first-of-type {
+    margin-left: -900%;
+}
+.csslider > input:nth-of-type(9):checked ~ ul li:first-of-type {
+    margin-left: -800%;
+}
+.csslider > input:nth-of-type(8):checked ~ ul li:first-of-type {
+    margin-left: -700%;
+}
+.csslider > input:nth-of-type(7):checked ~ ul li:first-of-type {
+    margin-left: -600%;
+}
+.csslider > input:nth-of-type(6):checked ~ ul li:first-of-type {
+    margin-left: -500%;
+}
+.csslider > input:nth-of-type(5):checked ~ ul li:first-of-type {
+    margin-left: -400%;
+}
+.csslider > input:nth-of-type(4):checked ~ ul li:first-of-type {
+    margin-left: -300%;
+}
+.csslider > input:nth-of-type(3):checked ~ ul li:first-of-type {
+    margin-left: -200%;
+}
+.csslider > input:nth-of-type(2):checked ~ ul li:first-of-type {
+    margin-left: -100%;
+}
+.csslider > input:nth-of-type(1):checked ~ ul li:first-of-type {
+    margin-left: 0;
+}
+.csslider > ul {
+    background-color: #3a3a3a;
+    border: 10px solid #3a3a3a;
+    box-sizing: border-box;
+    font-size: 0;
+    height: 420px;
+    line-height: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+    width: 1150px;
+    z-index: 1;
+}
+.csslider > ul > li {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: initial;
+    height: 100%;
+    line-height: normal;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1) 0s;
+    vertical-align: top;
+    white-space: normal;
+    width: 100%;
+}
+.csslider > ul > li.scrollable {
+    overflow-y: scroll;
+}
+.csslider > .navigation {
+    -moz-user-select: none;
+    bottom: -8px;
+    font-size: 0;
+    left: 50%;
+    line-height: 0;
+    margin-bottom: -10px;
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+}
+.csslider > .navigation > div {
+    margin-left: -100%;
+}
+.csslider > .navigation label {
+    background: #3a3a3a none repeat scroll 0 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 4px;
+    padding: 4px;
+    position: relative;
+}
+.csslider > .navigation label:hover::after {
+    opacity: 1;
+}
+.csslider > .navigation label::after {
+    background: #71ad37 none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    left: 50%;
+    margin-left: -6px;
+    margin-top: -6px;
+    opacity: 0;
+    padding: 6px;
+    position: absolute;
+    top: 50%;
+}
+.csslider > .arrows {
+    -moz-user-select: none;
+}
+.csslider.inside .navigation {
+    bottom: 10px;
+    margin-bottom: 10px;
+}
+.csslider.inside .navigation label {
+    border: 1px solid #7e7e7e;
+}
+.csslider > input:nth-of-type(1):checked ~ .navigation label:nth-of-type(1)::after, .csslider > input:nth-of-type(2):checked ~ .navigation label:nth-of-type(2)::after, .csslider > input:nth-of-type(3):checked ~ .navigation label:nth-of-type(3)::after, .csslider > input:nth-of-type(4):checked ~ .navigation label:nth-of-type(4)::after, .csslider > input:nth-of-type(5):checked ~ .navigation label:nth-of-type(5)::after, .csslider > input:nth-of-type(6):checked ~ .navigation label:nth-of-type(6)::after, .csslider > input:nth-of-type(7):checked ~ .navigation label:nth-of-type(7)::after, .csslider > input:nth-of-type(8):checked ~ .navigation label:nth-of-type(8)::after, .csslider > input:nth-of-type(9):checked ~ .navigation label:nth-of-type(9)::after, .csslider > input:nth-of-type(10):checked ~ .navigation label:nth-of-type(10)::after, .csslider > input:nth-of-type(11):checked ~ .navigation label:nth-of-type(11)::after {
+    opacity: 1;
+}
+.csslider > .arrows {
+    box-sizing: content-box;
+    height: 26px;
+    left: -31px;
+    padding: 0 31px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 0;
+}
+.csslider > .arrows label {
+    box-shadow: 2px -2px 0 1px #3a3a3a inset;
+    cursor: pointer;
+    display: none;
+    padding: 13px;
+    position: absolute;
+    top: -50%;
+    transition: box-shadow 0.15s ease 0s, margin 0.15s ease 0s;
+}
+.csslider > .arrows label:hover {
+    box-shadow: 3px -3px 0 2px #71ad37 inset;
+    margin: 0;
+}
+.csslider > .arrows label::before {
+    content: "";
+    height: 300%;
+    left: -100%;
+    position: absolute;
+    top: -100%;
+    width: 300%;
+}
+.csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last, .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0), .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1), .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2), .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3), .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4), .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5), .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6), .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7), .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8), .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9), .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) {
+    display: block;
+    left: 0;
+    right: auto;
+    transform: rotate(45deg);
+}
+.csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first, .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2), .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3), .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4), .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(5), .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(6), .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(7), .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(8), .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(9), .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(10), .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(11), .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(12) {
+    display: block;
+    left: auto;
+    right: 0;
+    transform: rotate(225deg);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    padding-left: 40px;
+}
+h1 {
+    font-size: 310%;
+    font-weight: 700;
+}
+h2 {
+    color: #71ad37;
+    font-size: 120%;
+    font-weight: 400;
+}
+#slider1 {
+    font-family: "Lato";
+    margin: 20px 35px;
+}
+#slider1 > ul > li:nth-of-type(3) {
+    background: rgba(0, 0, 0, 0) url("https://raw.github.com/drygiel/csslider/master/examples/themes/fruit.jpg") repeat scroll 0 0;
+}
+#slider1 > input:nth-of-type(3):checked ~ ul #bg {
+    padding: 22px;
+    transition: all 0.5s ease 0.5s;
+    width: 80%;
+}
+#slider1 > input:nth-of-type(3):checked ~ ul #bg div {
+    transform: translate(0px);
+    transition: all 0.5s ease 0.9s;
+}
+#slider1 > input:nth-of-type(6):checked ~ ul #dex-sign {
+    animation: 3.5s steps(85, end) 0.5s normal forwards 1 running sign-anim;
+}
+#bg {
+    color: #000;
+    height: 20%;
+    left: 0;
+    overflow: hidden;
+    padding: 22px 0;
+    position: absolute;
+    top: 16%;
+    width: 0;
+    z-index: 10;
+}
+#bg::before {
+    content: "";
+    height: 100%;
+    left: -1px;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    z-index: -1;
+}
+#bg::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+#bg div {
+    transform: translate(120%);
+}
+.scrollable p {
+    font-size: 120%;
+    line-height: 140%;
+    padding: 30px;
+    text-align: justify;
+}
+#center {
+    margin-top: 25%;
+    text-align: center;
+}
+#center a {
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a.nice-link {
+    color: #71ad37;
+    position: relative;
+}
+h1 a.nice-link::after {
+    border-bottom: 1px solid #a5ff0e;
+}
+a.nice-link::after {
+    background: #3a3a3a none repeat scroll 0 0;
+    color: #a5ff0e;
+    content: attr(data-text);
+    display: inline-block;
+    left: 0;
+    max-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    position: absolute;
+    text-align: justify;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    width: 0;
+}
+a.nice-link:hover {
+    color: #71ad37;
+}
+a.nice-link:hover::after {
+    width: 100%;
+}
+#dex-sign {
+    height: 84px;
+    left: 33%;
+    opacity: 0.7;
+    position: absolute;
+    top: 45%;
+    width: 255px;
+}
+#dex-sign:hover {
+    opacity: 1;
+}
+@keyframes sign-anim {
+100% {
+    background-position: 0 -7140px;
+}
+}
+@keyframes sign-anim {
+100% {
+    background-position: 0 -7140px;
+}
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.categories {
+    margin: 0 0;
+}
+.category {
+    background-color: #000000;
+    font-family: "Ubuntu",sans-serif;
+    position: relative;
+}
+.category a {
+    bottom: 0;
+    position: absolute;
+    right: 15px;
+}
+.profimg1 col-xs-12 col-sm-12 col-md-9 col-lg-9 
+{
+	float:left;
+}
+.proflefttext col-xs-12 col-sm-12 col-md-6 col-lg-6 
+{
+	float:left;
+	left:0px;
+	 
+}
+.profile h2{
+	color:green;
+	font-weight:bold;
+}
+.profile p{
+	text-indent:2px;
+	float:left;
+	
+}
+
+.profile-text {
+    align:left;
+}
+.profile-text p {
+    font-family: "Open Sans",sans-serif;
+}
+hr {
+    border-style: inset;
+    border-width: 1px;
+    display: block;
+    margin: 10px auto;
+}
+.profile a {
+}
+.Yphresies h2 {
+	color:green;
+	}
+.Yphresies {
+    font-family: "Open Sans",sans-serif;
+	
+	
+}
+.Yphresies ul li {
+    color: green;
+	
+}
+.Yphresies ul li p{
+    color: black;
+	
+}
+.Yphresies a {
+    float: right;
+    margin-top: 20px;
+}
+.photo hr {
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 65px;
+    width: 92%;
+}
+.pelates {
+    font-family: "Open Sans",sans-serif;
+    text-align:center;
+}
+
+.pelates h2 {
+    color:green;
+ 
+}
+.pelates p font lighter {
+    font-weight: lighter;
+}
+.photo-gallery-text {
+    font-family: "Open Sans",sans-serif;
+    margin: 3% 4%;	
+	 color:green;
+	 float:left;
+}
+ 
+.pelatologio {
+    float: left;
+}
+.footer-top-left {
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    height: 290px;
+    margin-left: 4%;
+	
+}
+.footer-top-left p lighter {
+    font-weight: lighter;
+}
+.footer-top-left2 {
+    margin-top: 4%;
+	color:green;
+	align:left;
+	font-weight:bold
+}
+.footer-mid {
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    height: 290px;
+    margin-top: 10%;
+    width: 300px;
+}
+.footer-mid-text {
+    float: left;
+	color:green;
+}
+.f {
+    float: left;
+    margin-top: 15%;
+}
+.f img{
+    float:left;
+}
+.f2 img {
+	float:left;
+}
+.f2 {
+    float: left;
+    margin: 10% 4%;
+	color:green;
+}
+.logo
+{
+	width:100%;
+}
+.profimg1 img
+{
+	width:100%;
+}
+.footer-power-logo {
+    margin-left: 15%;
+    margin-top: 60%;
+	float:center;
+}
+.footer-right {
+    float: right;
+    height: 290px;
+    margin-top: 0;
+}
+.back-to-top {
+    margin-left: 20%;
+}
+.back-to-top  img{
+   float:left;
+}
+.back-to-top-text {
+    float: left;
+    text-align: left;
+	font-weight:bold;
+	color:green;
+}
+.footer-logo {
+    left: 0;
+    margin-right: 4%;
+    margin-top: 25%;
+}
+.right-footer-text {
+    float: left;
+    font-weight: lighter;
+    margin-top: 8%;
+	font-weight:bold;
+	color:green;
+}
+.thumbnail {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+}
+.carousel-control.left {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.carousel-control.right {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+a.left.carousel-control {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    height: 52px;
+    margin: 150px 0 0 4px;
+    width: 52px;
+}
+a.right.carousel-control {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    height: 52px;
+    margin: 150px 4px 0 0;
+    width: 52px;
+}
+.glyphicon.glyphicon-chevron-left {
+    margin-top: -20px;
+}
+.glyphicon.glyphicon-chevron-right {
+    margin-right: -13px;
+    margin-top: -20px;
+}
+.glyphicon.glyphicon-chevron-left::before, .glyphicon.glyphicon-chevron-right::before {
+    color: #676767;
+    font-size: 18px;
+}
+ol.carousel-indicators {
+    margin-bottom: -50px;
+ 
+}
+ol.carousel-indicators li {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #b9b9b9;
+}
+ol.carousel-indicators li.active {
+    background: #2980b9 none repeat scroll 0 0;
+    border: 1px solid transparent;
+}
